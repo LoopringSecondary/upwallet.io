@@ -1,10 +1,10 @@
 /*---------------------
 header
 -----------------------*/
-header { padding: 20px 0; }
-header .container { position: relative; display: flex; align-items: center; justify-content: space-between; height: 80px; }
-header .brand { width: 172px; height: 51px; }
-header .brand img { width: 100%; }
+header { padding: 20px 0; user-select: none;-webkit-user-select: none;}
+header .container { position: relative; display: flex; align-items: center; justify-content: space-between; height: 80px; user-select: none;-webkit-user-select: none;}
+header .brand { width: 172px; height: 51px; user-select: none;-webkit-user-select: none;}
+header .brand img { width: 100%; user-select: none;-webkit-user-select: none;}
 footer { margin-top: 50px; background: #222; border-top: 1px solid rgba(0, 0, 0, 0.05); color: rgba(255, 255, 255, .6); font-size: 13px; height: 80px; line-height: 80px; text-align: center; }
 .top-bg { background: url(../images/bg.jpg); background-size: 100%; background-attachment: fixed; }
 .wrap { position: relative; z-index: 2000; }
@@ -17,7 +17,7 @@ footer { margin-top: 50px; background: #222; border-top: 1px solid rgba(0, 0, 0,
 .qrcode { display: block; width: 200px; height: 200px; margin: auto; margin: 50px auto 100px; color: #999; text-align: center; }
 .qrcode img { background: #fff; width: 100%; padding: 20px; border-radius: 12px; margin-bottom: 20px; }
 .btn-o { display: inline-block; border: 1px solid #fff; color: #fff; height: 30px; padding: 5px 20px; border-radius: 20px; }
-.btn-o:hover{ background: #fff; color: #000 }
+.btn-o:hover{ background: #ffea00; color: #000;border:1px solid #ffea00; ; }
 .section.bg { background: #222; }
 .section { color: #fff; padding:30px 30px 0;  }
 .section .container{display: flex; flex-direction: row-reverse; flex-wrap: wrap-reverse;}
@@ -31,7 +31,7 @@ footer { margin-top: 50px; background: #222; border-top: 1px solid rgba(0, 0, 0,
 .section h2.fixes { padding: 30px 0 20px; }
 .feature { display: block; padding:30px 0 50px }
 .feature .item { width: 100%; text-align: center;  }
-.feature i { font-size: 38px; color: #01B97F;}
+.feature i { font-size: 48px; color: #ffea00;}
 .feature h4 { font-size: 18px; margin-bottom: 10px; margin-top: 20px; }
 .feature p { opacity: 0.6 }
 .feature .item { padding: 20px; }
