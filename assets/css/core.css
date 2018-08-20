@@ -21,7 +21,7 @@ html { height: 100%; box-sizing: border-box; font-family: sans-serif; -webkit-te
 *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @-ms-viewport { width: device-width; }
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section { display: block; }
-body { height: 100%; margin: 0; background: #181224; font-family: "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; font-size: 13px; font-weight: normal; color: rgba(0, 0, 0, .87); }
+body { height: 100%; margin: 0; background: #222222; font-family: "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; font-size: 13px; font-weight: normal; color: rgba(0, 0, 0, .87); }
 [tabindex="-1"]:focus { outline: none !important; }
 hr { box-sizing: content-box; height: 0; overflow: visible; }
 h1, h2, h3, h4, h5, h6 { margin-top: 0; }
@@ -252,7 +252,7 @@ blockquote { margin: 0; }
 .col4-4 .item, .justify4-4 li { width: 25%; }
 .col5-5 .item, .justify5-5 li { width: 20%; }
 .col6-6 .item, .justify6-6 li { width: 16.66666667%; }
-.wrap { max-width: 1920px; margin: 0;}
+.wrap { max-width: 1920px; margin: auto; }
 .container { margin-right: auto; margin-left: auto; padding-right: 15px; padding-left: 15px; width: 100%; }
 @media (min-width:576px) {
 	.container { max-width: 540px; }
