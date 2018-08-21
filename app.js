@@ -1,20 +1,8 @@
-  function switchLanguage(value){
-      console.log('value',value)
-      if(value === 'zh_cn'){
-          location.href="/index.html"
-      }
-      if(value === 'en'){
-          location.href="/index_en.html"
-      }
-      if(value === 'zh_cn_traditional'){
-          location.href="/index_zh_cn_traditional.html"
-      }
-  }
   $(document).ready(function() {
     const userAgentInfo = navigator.userAgent;
     const isAndroid = userAgentInfo.indexOf('Android') > -1 || userAgentInfo.indexOf('Adr') > -1; //android终端
     const isiOS = !!userAgentInfo.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
-    if (!isAndroid || !isiOS) {
+    if (!isAndroid && !isiOS) {
         $('#qrcode').qrcode({
             render: "canvas",
             width: 150,
