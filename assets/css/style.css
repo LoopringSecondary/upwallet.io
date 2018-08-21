@@ -14,7 +14,7 @@ footer { margin-top: 50px; background: #1c1629; border-top: 1px solid rgba(0, 0,
 .top-content p { max-width: 480px; margin: auto; font-size: 14px; margin-top: 20px; opacity: 0.8; padding:0 50px; }
 .appimg-01,.appimg-02, .appimg-03, .appimg-04, .appimg-05 { padding: 20px 30px 0; }
 [class^="appimg-"] img, [class*=" appimg-"] img { width: 100% }
-.qrcode { display: block; width: 200px; height: 200px; margin: auto; margin: 50px auto 100px; color: #999; text-align: center; }
+.qrcode { display: none; width: 200px; height: 200px; margin: auto; margin: 50px auto 100px; color: #999; text-align: center; }
 .qrcode img { background: #fff; width: 100%; padding: 20px; border-radius: 12px; margin-bottom: 20px; }
 .btn-o,.switch-language{ display: inline-block; border: 1px solid #fff; color: #fff; height: 30px; padding: 5px 10px; border-radius: 6px; }
 .btn-o:hover,.switch-language:focus{ background: #fff; color: #000;border:1px solid #fff;outline: 0 }
@@ -78,7 +78,7 @@ canvas{ background: #fff; padding:20px; border-radius: 6px; }
 .slick-prev { left: 0; width: 33%; height: 100%; z-index: 1; }
 .slick-prev:before { content: ''; }
 .download { text-align: center; margin: 30px 0 60px 0; }
-.download .btn { display: inline-block; height: 50px; line-height: 50px; background-image: linear-gradient(-209deg, #FA4A6F 0%, #EF5395 31%, #DE4DCB 76%, #CE4CE6 100%); border-radius: 30px; color: #fff; padding: 0 30px; box-shadow: 0 5px 10px rgba(206, 76, 230, .5); font-size: 18px; font-weight: bold; ) }
+.download .btn { display: inline-block; height: 50px; line-height: 50px; background-image: linear-gradient(45deg, #EFC90C 0%, #FFB528 100%); border-radius: 30px; color: #fff; padding: 0 30px; box-shadow: 0 5px 10px rgba(239, 201, 12, .5); font-size: 18px; font-weight: bold; ) }
 .download .btn:hover { opacity: 0.8; }
 
 .help .step{ display: flex; flex-wrap: wrap;}
