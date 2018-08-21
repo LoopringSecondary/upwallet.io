@@ -83,7 +83,7 @@ canvas{ background: #fff; padding:20px; border-radius: 6px; }
 
 .help .step{ display: flex; flex-wrap: wrap;}
 .help .step .img,.help .step .content{ width: 100%;  flex-shrink: 0; }
-.help .step{ display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,.1); padding:20px; margin-bottom: 30px }
+.help .step{ display: flex; justify-content: space-between; align-items: center; background: #1c1629; padding:20px; margin-bottom: 30px }
 .help .step .num{ display: inline-block; flex-shrink: 0; width: 30px; height: 30px; margin-right: 20px; font-size: 18px; font-style: normal; font-weight: 400; border-radius: 20px; background: #eec80a; color: #1c1629; text-align: center; line-height: 30px; }
 .help .step .img{ margin-bottom: 10px;  }
 .help .step .img img{ width: 100%; }
