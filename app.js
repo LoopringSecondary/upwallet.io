@@ -44,8 +44,8 @@
         if(this.value === 'en'){
             location.href="/index_en.html"
         }
-        if(this.value === 'zh_traditional'){
-            location.href="/index_zh_traditional.html"
+        if(this.value === 'cn'){
+            location.href="/index_cn.html"
         }
     }
 })
