@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>http://upwallet.io/ios/120x120.png</string>
+					<string>http://upwallet.io/ios/small.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>http://upwallet.io/ios/512x512.png</string>
+					<string>http://upwallet.io/ios/big.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
