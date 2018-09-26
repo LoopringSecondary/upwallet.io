@@ -3,7 +3,7 @@ header
 -----------------------*/
 header { padding: 20px 0; user-select: none;-webkit-user-select: none;}
 header .container { position: relative; display: flex; align-items: center; justify-content: space-between; height: 80px; user-select: none;-webkit-user-select: none;}
-header .brand { width: 162px; height: 48px; user-select: none;-webkit-user-select: none;}
+header .brand { width: 110px; height: 29px; user-select: none;-webkit-user-select: none;}
 header .brand img { width: 100%; user-select: none;-webkit-user-select: none;}
 footer { margin-top: 50px; background: #1c1629; border-top: 1px solid rgba(0, 0, 0, 0.05); color: rgba(255, 255, 255, .6); font-size: 13px; height: 80px; line-height: 80px; text-align: center; }
 {  }
@@ -94,6 +94,7 @@ canvas{ background: #fff; padding:20px; border-radius: 6px; }
 	.container { max-width: 540px; }
 }
 @media (min-width:768px) {
+	header .brand { width: 162px; height: 48px;}
 	.download { }
 	.qrcode { display: block; }
 	.top-content h1 { font-size: 48px }
