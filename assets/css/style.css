@@ -14,7 +14,7 @@ footer { margin-top: 50px; background: #1c1629; border-top: 1px solid rgba(0, 0,
 .top-content p { max-width: 480px; margin: auto; font-size: 14px; margin-top: 20px; opacity: 0.8; padding:0 50px; }
 .appimg-01,.appimg-02, .appimg-03, .appimg-04, .appimg-05 { padding: 20px 30px 0; }
 [class^="appimg-"] img, [class*=" appimg-"] img { width: 100% }
-.qrcode { display: none; width: 200px; height: 200px; margin: auto; margin: 50px auto 100px; color: #999; text-align: center; }
+.qrcode { display: none; height: 200px; margin: auto; margin: 40px auto 100px; color: #999; text-align: center; }
 .qrcode img { background: #fff; width: 100%; padding: 20px; border-radius: 12px; margin-bottom: 20px; }
 .btn-o,.switch-language{ display: inline-block; border: 1px solid #fff; color: #fff; height: 30px; padding:6px 10px; border-radius: 6px; }
 .btn-o:hover,.switch-language:focus{ background: #fff; color: #000;border:1px solid #fff;outline: 0 }
@@ -50,9 +50,10 @@ footer { margin-top: 50px; background: #1c1629; border-top: 1px solid rgba(0, 0,
 .comment-wrap { position: relative; background: #4c4850; padding: 58px 38px; margin: 50px 0; text-align: center; opacity: 0.8; -webkit-transform: scale(0.8); -ms-transform: scale(0.8); transform: scale(0.8); -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s; }
 .comment-wrap h4{ font-size: 14px; margin-bottom: 10px; }
 .download { margin: 50px  0; }
+.download>div{ margin-bottom:30px; }
 .slick-slide { width: 100%; }
 canvas{ background: #fff; padding:20px; border-radius: 6px; }
-#qrcode,#qrcode2{margin-bottom: 10px;}
+.qrcode-title{ text-align: center; font-size: 16px; font-weight: bold; color: #fff; }
 @media (max-width:768px) {
 	.comment-wrap { padding: 58px 10px; }
 }
@@ -78,7 +79,7 @@ canvas{ background: #fff; padding:20px; border-radius: 6px; }
 .slick-prev { left: 0; width: 33%; height: 100%; z-index: 1; }
 .slick-prev:before { content: ''; }
 .download { text-align: center; margin: 30px 0 60px 0; }
-.download .btn { display: inline-block; height: 50px; line-height: 50px; background-image: linear-gradient(45deg, #EFC90C 0%, #FFB528 100%); border-radius: 30px; color: #fff; padding: 0 30px; box-shadow: 0 5px 10px rgba(239, 201, 12, .5); font-size: 18px; font-weight: bold; ) }
+.download .btn { display: inline-block; width: 280px; height: 50px; line-height: 50px; background-image: linear-gradient(45deg, #EFC90C 0%, #FFB528 100%); border-radius: 30px; color: #fff !important; padding: 0 30px; box-shadow: 0 5px 10px rgba(239, 201, 12, .5); font-size: 16px; font-weight: bold; ) }
 .download .btn:hover { opacity: 0.8; }
 
 .help .step{ display: flex; flex-wrap: wrap;}
@@ -95,8 +96,11 @@ canvas{ background: #fff; padding:20px; border-radius: 6px; }
 }
 @media (min-width:768px) {
 	header .brand { width: 162px; height: 48px;}
-	.download { }
-	.qrcode { display: block; }
+	.download {  display: none; }
+	.qrcode { display: flex; width: 510px; }
+	.qrcode>div{ width: 140px; margin:10px 15px; }
+	.qrcode>div>div{ margin-bottom:10px; }
+	.qrcode>div p{ font-size: 13px; font-weight: normal; }
 	.top-content h1 { font-size: 48px }
 	[class^="appimg-"], [class*=" appimg-"] { padding: 0; }
 	.section h2 { font-size: 40px; padding: 80px 0 100px; text-align: center; }
@@ -129,3 +133,9 @@ canvas{ background: #fff; padding:20px; border-radius: 6px; }
 	@media (min-width:1200px) {
 		.container { max-width: 1140px; }
 	}
+
+
+
+
+
+

@@ -3,14 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>UP-基于路印协议的以太坊钱包</title>
+    <title>UP-支持去中心化交易的以太坊钱包</title>
     <meta http-equiv="pragma" content="no-cache">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">
     <meta http-equiv="keywords" content="UP Wallet">
     <meta http-equiv="description" content="UP Wallet">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="google-site-verification" content="T3YHDA51HTmkm-JRLPtv9xCaB2dItpqOwy241zGdJJU" />
     <link rel="icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/core.css">
     <link rel="stylesheet" href="assets/js/slick/css/slick.css">
@@ -26,176 +25,213 @@
 </head>
 
 <body>
-    <div class="top-bg clearfix">
-        <div class="wrap">
-            <header>
-                <div class="container relative">
-                    <div class="brand"><a href="index.html"><img src="assets/images/logo.png"></a></div>
-                    <div>
-                        <select class="switch-language" id="switchLanguage">
-                            <option value="zh_cn" selected>Language | 語言</option>
-                            <option value="en">English</option>
-                            <option value="cn">繁體中文</option>
-                        </select>
-                        <a href="help.html" target="_blank" class="btn-o">如何安装</a>
-                    </div>
+<div class="top-bg clearfix">
+    <div class="wrap">
+        <header>
+            <div class="container relative">
+                <div class="brand"><a href="index.html"><img src="assets/images/logo.png"></a></div>
+                <div>
+                    <select class="switch-language" id="switchLanguage">
+                        <option value="zh_cn" selected>Language | 语言</option>
+                        <option value="en">English</option>
+                        <option value="cn">繁體中文</option>
+                    </select>
+                    <a href="help.html" target="_blank" class="btn-o">如何安装</a>
                 </div>
+            </div>
             </header>
-            <div class="home-top">
-                <div class="top-content">
-                    <h1>安全好用的以太坊钱包</h1>
-                    <p>UP是个百分百开源，不托管资产的以太坊钱包。UP不仅帮您管理以太坊上的数字资产，更支持基于路印协议的去中心化交易。</p>
-                </div>
-                <div class="download" id="iosdownload"><a href="itms-services://?action=download-manifest&url=https://loopr.io/ios/manifest.plist" class="btn">下载UP Wallet钱包</a></div>
-                <div class="qrcode">
+        <div class="home-top">
+            <div class="top-content">
+                <h1>安全好用的以太坊钱包</h1>
+                <p>UP是个百分百开源，不托管资产的以太坊钱包。UP不仅帮您管理以太坊上的数字资产，更支持基于路印协议的去中心化交易。</p>
+            </div>
+            <div class="download">
+                <div><a id="ios-download" href="https://upwallet.io/ios/manifest.plist" class="btn"><i class="icon-ios"></i>下载IOS版UP Wallet钱包</a></div>
+                <div><a id="an-download" href="https://play.google.com/store/apps/details?id=leaf.prod.app"  target="_blank" class="btn"><i class="icon-ios"></i>Google Play下载UP Wallet</a></div>
+                <div><a id="an-download2" href = "https://shouji.baidu.com/software/24952969.html" target="_blank" class="btn"><i class="icon-ios"></i>百度应用商店下载UP Wallet</a></div>
+            </div>
+            <div class="qrcode">
+                <div>
                     <div id="qrcode"></div>
-                    <p>扫码下载iOS钱包</p>
+                    <p>扫码下载IOS版UP Wallet</p>
                 </div>
-                <div class="appimg-01"><img src="assets/images/app01.png"></div>
-            </div>
-            <div class="section bg">
-                <h2>钱包特性</h2>
-                <div class="feature">
-                    <div class="item">
-                        <i class="icon-simple"></i>
-                        <h4>设计简单优美</h4>
-                        <p>UP界面简洁，使用方便，您无需太多知识积累即可快速上手使用。她即适合普通用户，也适合高净值币圈大佬。</p>
-                    </div>
-                    <div class="item">
-                        <i class="icon-githubs"></i>
-                        <h4>代码百分百开源</h4>
-                        <p>UP钱包基于路印协议的开源代码库，任何个人和机构都可随时审核我们的代码，确保我们的私钥管理严谨无风险。</p>
-                    </div>
-                    <div class="item">
-                        <i class="icon-safe"></i>
-                        <h4>不托管资产</h4>
-                        <p>UP钱包通过加密方式保管您的钱包私钥，永远不会将私钥暴露在网络上，您的资产从始至终都掌控在自己手里。</p>
-                    </div>
-                    <div class="item">
-                        <i class="icon-dex"></i>
-                        <h4>支持撮合交易</h4>
-                        <p>UP支持基于路印协议的去中心化交易，资产不离开钱包，无需充值提现，就可以下单交易。整个过程没有任何风险，无需任何信任。</p>
-                    </div>
-                    <div class="item">
-                        <i class="icon-rmb"></i>
-                        <h4>支持点对点交易</h4>
-                        <p>您可以通过分享二维码，做基于路印协议的去中心化点对点交易。无需任何第三方担保，即可以轻松完成不同ERC20代币间的互换。</p>
-                    </div>
-                    <div class="item">
-                        <i class="icon-all"></i>
-                        <h4>支持所有代币</h4>
-                        <p>UP方便您快捷添加多种主流ERC20数字资产，并允许您通过地址添加和管理任意ERC20代币。有了UP，您无需第二个以太坊钱包。</p>
-                    </div>
-                </div>
-            </div>
-            <div class="section">
-                <div class="container">
-                    <div class="appimg-02"><img class="x02" src="assets/images/app02.png" /></div>
-                    <div class="content">
-                        <div><i class="icon-wallet"></i>
-                            <h4>多地址管理</h4>
-                            <p>在UP中您可以通过助记词、Keystore、私钥等方式导入多个以太坊钱包地址，并轻松在多个地址间快速切换。
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section bg">
-                <div class="container">
-                    <div class="content">
-                        <div><i class="icon-all"></i>
-                            <h4>完美支持ERC20代币</h4>
-                            <p>UP定制了超过两百个ERC20代币资产图标，方便您进行主流ERC20代币的管理。</p>
-                        </div>
-                    </div>
-                    <div class="appimg-03"><img class="x03" src="assets/images/app03.png" /></div>
-                </div>
-            </div>
-            <div class="section">
-                <div class="container">
-                    <div class="appimg-04"><img class="x04" src="assets/images/app04.png" /></div>
-                    <div class="content">
-                        <div><i class="icon-dex"></i>
-                            <h4>内置去中心化交易所</h4>
-                            <p>UP内置路印协议去中心化交易所。您下单前无需充值；订单不锁定资产，下单后依然可以自由转账；成交后也无需提现，您购买到的代币第一时间自动转到您的地址。</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section bg">
-                <div class="container">
-                    <div class="content">
-                        <div><i class="icon-p2p"></i>
-                            <h4>点对点扫码交易</h4>
-                            <p>两个人交易前还要麻烦找个第三方做担保？通过路印协议，UP支持点对点扫码交易。交易双向转账瞬间完成，没有付款先后顺序带来的风险。您可以将订单二维码面对面展示给特定交易方，也可以将其分享到朋友圈等待多人抢单。</p>
-                        </div>
-                    </div>
-                    <div class="appimg-05"><img class="x05" src="assets/images/app05.png" /></div>
-                </div>
-            </div>
-            <div class="section">
-                <h2 class="fixes">用户评价</h2>
-                <div class="loop reveal fadeIn">
-                    <div class="comment-wrap">
-                        <h4>Telegram社区Jonathan Lee</h4>
-                        <p>This is a great wallet app, better and simpler than imtoken. You Can really tell how much time the developers spend on this app. Most of all, the app is fully open source!<img src="assets/images/photo-01.jpg" class="comment-img"> </p>
-                    </div>
-                    <div class="comment-wrap">
-                        <h4>路印协议CMO周杰</h4>
-                        <p>UP钱包展示了每个数字资产持有者都应该拥有的一种产品的雏形 - 一个具有去中心化交易功能的钱包。在这个钱包里，将来交易会和转账一样安全便捷。我们很高兴Up Blockchain选择路印的技术方案。
-                            <img src="assets/images/photo-02.jpg" class="comment-img"> </p>
-                    </div>
-                    <div class="comment-wrap">
-                        <h4>安比实验室郭宇</h4>
-                        <p>我们对路印iOS版钱包的代码库进行了严格的审查，没有发现涉及用户资产安全的漏洞。我们赞同钱包的开源策略，只有开源的代码才能最终把安全做到无懈可击。<img src="assets/images/photo-03.jpg" class="comment-img"> </p>
-                    </div>
-                    <div class="comment-wrap">
-                        <h4>用户陈磊</h4>
-                        <p>终于有一款好用的路印钱包了，虽然交易量暂时还没法抗衡中心化交易所，但这个趋势很明显。界面也很漂亮，路印加油！<img src="assets/images/photo-04.jpg" class="comment-img"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="section bg">
-                <h2>常见问题</h2>
-                <div class="faq">
-                    <div class="item">
-                        <h4>UP钱包服务器会备份我的私钥吗？</h4>
-                        <p>不会。UP是个非托管钱包，我们的原则是用户的私钥永远只留在钱包内，不会触网，更不会被上传到我们的服务器。您一定要自己做好备份！</p>
-                    </div>
-                    <div class="item">
-                        <h4>UP钱包和路印官方钱包有什么不同？</h4>
-                        <p>第一版本的UP钱包基于路印协议开源的Loopr钱包，但后续版本会有许多独特的新功能。</p>
-                    </div>
-                    <div class="item">
-                        <h4>“分享即分润”活动是怎么回事？</h4>
-                        <p>您如果通过UP内置的分享功能，将UP分享给朋友，他们将来下单手续费的20%都会通过路印协议直接转账到您已经解锁的钱包地址。分享越多，分润越大。</p>
-                    </div>
-                    <div class="item">
-                        <h4>使用UP如有问题，如何联系你们？</h4>
-                        <p>您可以发email到 <a href="mailto:wallet@upblockchain.io">wallet@upblockchain.io</a>垂询相关问题，也可以咨询我们的战略合作伙伴<a href="mailto:service@loopring.org">路印基金会</a>。</p>
-                    </div>
-                </div>
-            </div>
-            <div class="section">
-                <div class="top-content">
-                    <h1>还等什么</h1>
-                    <p>拥抱区块链“不信任任何人”的理念，才可能真正意义上的拥有自己的数字资产。停止盲目信任中心化交易所和数字资产平台，从下载和使用UP开始。</p>
-                </div>
-                <div class="download" id="iosdownload2"><a href="#" class="btn">下载UP Wallet钱包</a></div>
-                <div class="qrcode">
+                <div>
                     <div id="qrcode2"></div>
-                    <p>扫码下载iOS钱包</p>
+                    <p>扫码通过Google Play下载Android版UP Wallet</p>
+                </div>
+                <div>
+                    <div id="qrcode3"></div>
+                    <p>扫码通过百度应用商店下载安卓版UP Wallet</p>
                 </div>
             </div>
-            <footer>Copyright © 2018 Up Blockchain, Hong Kong</footer>
+            <div class="appimg-01"><img src="assets/images/app01.png"></div>
         </div>
+        <div class="section bg">
+            <h2>钱包特性</h2>
+            <div class="feature">
+                <div class="item">
+                    <i class="icon-simple"></i>
+                    <h4>设计简单优美</h4>
+                    <p>UP界面简洁，使用方便，您无需太多知识积累即可快速上手使用。她即适合普通用户，也适合高净值币圈大佬。</p>
+                </div>
+                <div class="item">
+                    <i class="icon-githubs"></i>
+                    <h4>代码百分百开源</h4>
+                    <p>UP钱包基于路印协议的开源代码库，任何个人和机构都可随时审核我们的代码，确保我们的私钥管理严谨无风险。</p>
+                </div>
+                <div class="item">
+                    <i class="icon-safe"></i>
+                    <h4>不托管资产</h4>
+                    <p>UP钱包通过加密方式保管您的钱包私钥，永远不会将私钥暴露在网络上，您的资产从始至终都掌控在自己手里。</p>
+                </div>
+                <div class="item">
+                    <i class="icon-dex"></i>
+                    <h4>支持撮合交易</h4>
+                    <p>UP支持基于路印协议的去中心化交易，资产不离开钱包，无需充值提现，就可以下单交易。整个过程没有任何风险，无需任何信任。</p>
+                </div>
+                <div class="item">
+                    <i class="icon-rmb"></i>
+                    <h4>支持点对点交易</h4>
+                    <p>您可以通过分享二维码，做基于路印协议的去中心化点对点交易。无需任何第三方担保，即可以轻松完成不同ERC20代币间的互换。</p>
+                </div>
+                <div class="item">
+                    <i class="icon-all"></i>
+                    <h4>支持所有代币</h4>
+                    <p>UP方便您快捷添加多种主流ERC20数字资产，并允许您通过地址添加和管理任意ERC20代币。有了UP，您无需第二个以太坊钱包。</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="appimg-02"><img class="x02" src="assets/images/app02.png"/></div>
+                <div class="content">
+                    <div><i class="icon-wallet"></i>
+                        <h4>多地址管理</h4>
+                        <p>在UP中您可以通过助记词、Keystore、私钥等方式导入多个以太坊钱包地址，并轻松在多个地址间快速切换。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section bg">
+            <div class="container">
+                <div class="content">
+                    <div><i class="icon-all"></i>
+                        <h4>完美支持ERC20代币</h4>
+                        <p>UP定制了超过两百个ERC20代币资产图标，方便您进行主流ERC20代币的管理。</p>
+                    </div>
+                </div>
+                <div class="appimg-03"><img class="x03" src="assets/images/app03.png"/></div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="appimg-04"><img class="x04" src="assets/images/app04.png"/></div>
+                <div class="content">
+                    <div><i class="icon-dex"></i>
+                        <h4>内置去中心化交易所</h4>
+                        <p>UP内置路印协议去中心化交易所。您下单前无需充值；订单不锁定资产，下单后依然可以自由转账；成交后也无需提现，您购买到的代币第一时间自动转到您的地址。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section bg">
+            <div class="container">
+                <div class="content">
+                    <div><i class="icon-p2p"></i>
+                        <h4>点对点扫码交易</h4>
+                        <p>
+                            两个人交易前还要麻烦找个第三方做担保？通过路印协议，UP支持点对点扫码交易。交易双向转账瞬间完成，没有付款先后顺序带来的风险。您可以将订单二维码面对面展示给特定交易方，也可以将其分享到朋友圈等待多人抢单。</p>
+                    </div>
+                </div>
+                <div class="appimg-05"><img class="x05" src="assets/images/app05.png"/></div>
+            </div>
+        </div>
+        <div class="section">
+            <h2 class="fixes">用户评价</h2>
+            <div class="loop reveal fadeIn">
+                <div class="comment-wrap">
+                    <h4>Telegram社区Jonathan Lee</h4>
+                    <p>This is a great wallet app, better and simpler than imtoken. You Can really tell how much time
+                        the developers spend on this app. Most of all, the app is fully open source!<img
+                                src="assets/images/photo-01.jpg" class="comment-img"></p>
+                </div>
+                <div class="comment-wrap">
+                    <h4>路印协议CMO周杰</h4>
+                    <p>UP钱包展示了每个数字资产持有者都应该拥有的一种产品的雏形 - 一个具有去中心化交易功能的钱包。在这个钱包里，将来交易会和转账一样安全便捷。我们很高兴Up
+                        Blockchain选择路印的技术方案。
+                        <img src="assets/images/photo-02.jpg" class="comment-img"></p>
+                </div>
+                <div class="comment-wrap">
+                    <h4>安比实验室郭宇</h4>
+                    <p>我们对路印iOS版钱包的代码库进行了严格的审查，没有发现涉及用户资产安全的漏洞。我们赞同钱包的开源策略，只有开源的代码才能最终把安全做到无懈可击。<img
+                            src="assets/images/photo-03.jpg" class="comment-img"></p>
+                </div>
+                <div class="comment-wrap">
+                    <h4>用户陈磊</h4>
+                    <p>终于有一款好用的路印钱包了，虽然交易量暂时还没法抗衡中心化交易所，但这个趋势很明显。界面也很漂亮，路印加油！<img src="assets/images/photo-04.jpg"
+                                                                                  class="comment-img"></p>
+                </div>
+            </div>
+        </div>
+        <div class="section bg">
+            <h2>钱包使用帮助</h2>
+            <div class="faq">
+                <div class="item">
+                    <h4>UP钱包服务器会备份我的私钥吗？</h4>
+                    <p>不会。UP是个非托管钱包，我们的原则是用户的私钥永远只留在钱包内，不会触网，更不会被上传到我们的服务器。您一定要自己做好备份！</p>
+                </div>
+                <div class="item">
+                    <h4>UP钱包和路印官方钱包有什么不同？</h4>
+                    <p>第一版本的UP钱包基于路印协议开源的Loopr钱包，但后续版本会有许多独特的新功能。</p>
+                </div>
+                <div class="item">
+                    <h4>“分享即分润”活动是怎么回事？</h4>
+                    <p>您如果通过UP内置的分享功能，将UP分享给朋友，他们将来下单手续费的20%都会通过路印协议直接转账到您已经解锁的钱包地址。分享越多，分润越大。</p>
+                </div>
+                <div class="item">
+                    <h4>使用UP如有问题，如何联系你们？</h4>
+                    <p>您可以发email到 <a href="mailto:wallet@upblockchain.io">wallet@upblockchain.io</a>垂询相关问题，也可以咨询我们的战略合作伙伴<a
+                            href="mailto:service@loopring.org">路印基金会</a>。</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="top-content">
+                <h1>还等什么</h1>
+                <p>拥抱区块链“不信任任何人”的理念，才可能真正意义上的拥有自己的数字资产。停止盲目信任中心化交易所和数字资产平台，从下载和使用UP开始。</p>
+            </div>
+            <div class="download">
+                <div><a id="ios-download2" href="https://upwallet.io/ios/manifest.plist" class="btn">下载IOS版UP
+                    Wallet钱包</a></div>
+                <div><a id="an-download3" href="https://play.google.com/store/apps/details?id=leaf.prod.app"  target="_blank" class="btn"><i class="icon-ios"></i>Google Play下载UP Wallet</a></div>
+                <div><a id="an-download4" href = "https://shouji.baidu.com/software/24952969.html" target="_blank" class="btn"><i class="icon-ios"></i>百度应用商店下载UP Wallet</a></div>
+
+            </div>
+            <div class="qrcode">
+                <div>
+                    <div id="qrcode4"></div>
+                    <p>扫码下载IOS版UP Wallet</p>
+                </div>
+                <div>
+                    <div id="qrcode5"></div>
+                    <p>扫码通过Google Play下载Android版UP Wallet</p>
+                </div>
+                <div>
+                    <div id="qrcode6"></div>
+                    <p>扫码通过百度应用商店下载安卓版UP Wallet</p>
+                </div>
+            </div>
+        </div>
+        <footer>Copyright © 2018 Up Blockchain, Hong Kong</footer>
     </div>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Slick JS -->
-    <script src="assets/js/slick/js/slick.min.js"></script>
-    <!-- owlcarousel JS -->
-    <script src="assets/js/owlcarousel/js/owl.carousel.min.js"></script>
-    <script src="assets/js/script.js"></script>
+</div>
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- Slick JS -->
+<script src="assets/js/slick/js/slick.min.js"></script>
+<!-- owlcarousel JS -->
+<script src="assets/js/owlcarousel/js/owl.carousel.min.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 
 </html>
