@@ -21,36 +21,38 @@
             height: 100,
             text: encodeURI(window.location.href)
         });
-        $('#qrcode2').qrcode({
-            render: "canvas",
-            width: 100,
-            height: 100,
-            text: encodeURI("https://play.google.com/store/apps/details?id=leaf.prod.app")
-        });
         $('#qrcode3').qrcode({
             render: "canvas",
             width: 100,
             height: 100,
-            text: encodeURI("https://loopr.io/android/upwallet.apk")
+            text: encodeURI(window.location.href)
         });
+        $('#qrcode2').hide();
+        // $('#qrcode2').qrcode({
+        //     render: "canvas",
+        //     width: 100,
+        //     height: 100,
+        //     text: encodeURI("https://loopr.io/android/upwallet.apk")
+        // });
         $('#qrcode4').qrcode({
             render: "canvas",
             width: 100,
             height: 100,
             text: encodeURI(window.location.href)
         });
-        $('#qrcode5').qrcode({
-            render: "canvas",
-            width: 100,
-            height: 100,
-            text: encodeURI("https://play.google.com/store/apps/details?id=leaf.prod.app")
-        });
         $('#qrcode6').qrcode({
             render: "canvas",
             width: 100,
             height: 100,
-            text: encodeURI("https://loopr.io/android/upwallet.apk")
+            text: encodeURI(window.location.href)
         });
+        $('#qrcode5').hide();
+        // $('#qrcode6').qrcode({
+        //     render: "canvas",
+        //     width: 100,
+        //     height: 100,
+        //     text: encodeURI("https://loopr.io/android/upwallet.apk")
+        // });
         $('#ios-download').hide();
         $('#ios-download2').hide();
         $('#an-download').hide();
