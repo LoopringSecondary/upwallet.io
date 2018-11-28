@@ -31,7 +31,7 @@
             render: "canvas",
             width: 100,
             height: 100,
-            text: encodeURI("https://shouji.baidu.com/software/25094493.html")
+            text: encodeURI("https://loopr.io/android/upwallet.apk")
         });
         $('#qrcode4').qrcode({
             render: "canvas",
@@ -49,7 +49,7 @@
             render: "canvas",
             width: 100,
             height: 100,
-            text: encodeURI("https://shouji.baidu.com/software/25094493.html")
+            text: encodeURI("https://loopr.io/android/upwallet.apk")
         });
         $('#ios-download').hide();
         $('#ios-download2').hide();
